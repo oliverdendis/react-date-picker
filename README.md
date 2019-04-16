@@ -98,6 +98,7 @@ Displays an input field complete with custom inputs, native input, and a calenda
 |calendarIcon|Defines the content of the calendar button. Setting the value explicitly to `null` will hide the icon.|<ul><li>String: `"Calendar"`</li><li>React element: `<CalendarIcon />`</li></ul>|
 |className|Defines class name(s) that will be added along with "react-date-picker" to the main React-Date-Picker `<div>` element.|<ul><li>String: `"class1 class2"`</li><li>Array of strings: `["class1", "class2 class3"]`</li></ul>|
 |clearIcon|Defines the content of the clear button. Setting the value explicitly to `null` will hide the icon.|<ul><li>String: `"Clear"`</li><li>React element: `<ClearIcon />`</li></ul>|
+|defaultDetail|Determines which calendar view shall be opened initially. Can be "month", "year", "decade" or "century". Defaults to the most detailed view allowed.|`"month"`|
 |disabled|Defines whether the date picker should be disabled. Defaults to false.|`true`|
 |format|Defines input format based on [Unicode Technical Standard #35](https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table). Supported values are: `y`, `M`, `MM`, `d`, `dd`.|`"y-MM-dd"`|
 |isOpen|Defines whether the calendar should be opened. Defaults to false.|`true`|

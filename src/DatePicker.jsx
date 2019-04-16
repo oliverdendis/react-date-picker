@@ -181,6 +181,7 @@ export default class DatePicker extends PureComponent {
       className: datePickerClassName, // Unused, here to exclude it from calendarProps
       onChange,
       value,
+      defaultDetail,
       ...calendarProps
     } = this.props;
 
@@ -193,6 +194,7 @@ export default class DatePicker extends PureComponent {
             className={calendarClassName}
             onChange={this.onChange}
             value={value || null}
+            view={defaultDetail}
             {...calendarProps}
           />
         </div>
